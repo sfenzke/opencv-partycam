@@ -1,0 +1,15 @@
+env = Environment()
+
+env.Append(CCFLAGS='''
+											-O2
+											-s
+											-Wall
+											-fexceptions
+									 '''.split())
+
+env.Program('partycam2', Glob('*.cpp'),LIBS= '''
+																					stdc++
+																					opencv_core
+																					opencv_imgproc
+																					opencv_highgui
+																				'''.split())
