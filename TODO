@@ -1,0 +1,6 @@
+* Use SCons for build-management instead of the build.sh-"script"
+* Create GUI based on wxWidgets
+* Make it work under Windows and Mac OS x
+* Create installers for Windows and Mac OS X
+* Create DEB and RPMs
+* Enumerate cams and show them in GUI by name instead of by ID (not easy as OpenCV doesn't support that)
