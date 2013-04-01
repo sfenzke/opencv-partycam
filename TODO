@@ -1,4 +1,3 @@
-* Use SCons for build-management instead of the build.sh-"script"
 * Create GUI based on wxWidgets
 * Make it work under Windows and Mac OS x
 * Create installers for Windows and Mac OS X
